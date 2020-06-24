@@ -11,8 +11,8 @@ export default function Project(props) {
         <p>{props.data.text}</p>
       </div>
       <div className="card-action">
-        <a href="#">Link</a>
-        <a href="#">Github </a>
+        <a href={props.data.url}>Demo</a>
+        <a href={props.data.gh}>Github repo</a>
       </div>
     </div>
   );

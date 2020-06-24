@@ -16,7 +16,7 @@ export default function Navbar() {
             src="img/mypic.jpg"
             style={{ width: "50px" }}
           />
-          <Link to="#" data-target="mobile-demo" className="sidenav-trigger">
+          <Link to="#" data-target="mobile" className="sidenav-trigger">
             <i className="material-icons">menu</i>
           </Link>
           <ul className="right hide-on-med-and-down">
@@ -44,12 +44,16 @@ export default function Navbar() {
         </div>
       </nav>
 
-      <ul className="sidenav" id="mobile-demo">
-        <img
-          className="left circle responsive-img"
-          src="img/mypic.jpg"
-          style={{ width: "50px" }}
-        />
+      <ul className="sidenav indigo accent-2" id="mobile">
+        <li>
+          <Link className="waves-effect" to="/">
+            <img
+              className="circle responsive-img"
+              src="img/mypic.jpg"
+              style={{ width: "50px" }}
+            />
+          </Link>
+        </li>
         <li>
           <Link className="waves-effect" to="/">
             About
