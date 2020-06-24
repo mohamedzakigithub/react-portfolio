@@ -2,9 +2,13 @@ import React from "react";
 
 export default function Project(props) {
   return (
-    <div className="card" style={{ width: "300px", margin: "20px" }}>
+    <div
+      className="card"
+      style={{ width: "300px", margin: "20px" }}
+      key={props.data.key}
+    >
       <div className="card-image">
-        <img src={"./img/" + props.data.image} />
+        <img src={"./img/" + props.data.image} alt="" />
         <span className="card-title">{props.data.title}</span>
       </div>
       <div className="card-content">

@@ -14,6 +14,7 @@ export default function Navbar() {
           <img
             className="left circle responsive-img"
             src="img/mypic.jpg"
+            alt="mypic"
             style={{ width: "50px" }}
           />
           <Link to="#" data-target="mobile" className="sidenav-trigger">
@@ -50,6 +51,7 @@ export default function Navbar() {
             <img
               className="circle responsive-img"
               src="img/mypic.jpg"
+              alt="mypic"
               style={{ width: "50px" }}
             />
           </Link>

@@ -12,7 +12,7 @@ export default function Projects() {
     },
     {
       title: "Code quiz",
-      text: "An JavaScript timed quiz app.",
+      text: "A JavaScript timed quiz app.",
       image: "codequiz.png",
       url: "https://mohamedzakigithub.github.io/code-quiz/",
       gh: "https://github.com/mohamedzakigithub/code-quiz",
@@ -44,8 +44,8 @@ export default function Projects() {
           justifyContent: "space-between",
         }}
       >
-        {projects.map((item) => (
-          <Project data={item} />
+        {projects.map((item, index) => (
+          <Project data={item} key={index} />
         ))}
       </div>
     </>
