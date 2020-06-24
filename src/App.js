@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <div className="container">
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/About">
               <About />
             </Route>
             <Route exact path="/Experience">
@@ -26,6 +26,9 @@ function App() {
             </Route>
             <Route exact path="/Projects">
               <Projects />
+            </Route>
+            <Route path="*">
+              <About />
             </Route>
           </Switch>
         </div>

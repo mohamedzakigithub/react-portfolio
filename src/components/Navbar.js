@@ -22,7 +22,7 @@ export default function Navbar() {
           </Link>
           <ul className="right hide-on-med-and-down">
             <li>
-              <Link className="waves-effect" to="/">
+              <Link className="waves-effect" to="/About">
                 About
               </Link>
             </li>
